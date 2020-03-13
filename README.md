@@ -1,24 +1,24 @@
-# πrate — Owning CVV Numbers to Genetic Signatures
+# πrate: The Privacy Oracle
 
 <p align="center">
-<b>πrate &mdash; Owning CVV Numbers to Genetic Signatures</b><br><br>
+<b>πrate &mdash; Search Engine For Earthlings Personal Data</b><br><br>
 <img alt="Pirate Logo" src="/static/logo.png" width="400"><br>
-See it in <a href="#demo">action</a>
+See it in <a href="https://example.com">action</a>
 </p>
 
 ## Introduction
 
-This Pi Day, πrate is going to end privacy. All personal information that has ever existed or will ever exist, the genetic code sequence of every being in the universe, can be found just by using **πrate**.
+This Pi Day, **πrate** is going to end privacy. All personal information that has ever existed or will ever exist, the PII credentials of every earthling, can be searched just by using **πrate**.
 
-You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique genetic code sequence!
+You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique super-duper secret pin!
 
 Want to get freaked out? https://example.com
 
 ### That's scary, πrate stores my personal information!?
 
-We **do not** share your personal information, we just display the locations where your information is, like a GPS Navigator. It means, all your personal information are still there, quietly sitting in π &mdash; they're never going away, you can't scrub the digits, can you?
+We **do not** share your personal information, we just display the locations where your information is, like a GPS Navigator. It means, all your personal information is still there, quietly sitting in π &mdash; it's never going away, you can't scrub the digits, can you? And not only yours, That's right! Every person you've ever met, or anyone else has met or will meet!
 
-And not only yours, That's right! Every person you've ever met, or anyone else has met or will meet! [Data Protection Laws](https://en.wikipedia.org/wiki/Information_privacy_law)? All of it is in π! They were always there!
+[Data Protection Laws](https://en.wikipedia.org/wiki/Information_privacy_law)? All of it is in π! They were always there!
 
 ### So I've looked up my personal information in π, what did I gain?
 
@@ -27,7 +27,7 @@ Nothing.
 ### Why you created this?
 
 Think of a scenario where you forgot your credit card number, what will you do? You will have to get it revoked and stuff.
-But, what if you've written them down somewhere; you could use a piece of paper, a post-it-note so to say but your friendly neighbourhood Billy can look upto it and cause trouble. Use πrate to create an unique seq and no-one will understand what the seq means and by merely using πrate again, you can retrive your credit card number!
+But, what if you've written them down somewhere; you could use a piece of paper, a post-it-note so to say but your friendly neighbourhood Billy can look upto it and cause trouble. Use πrate to create an unique seq and no-one will understand what the seq means and by merely using πrate again, you can retrive your credit card number! Amazeballs, right?
 
 ### Why Chunking Data?
 
@@ -45,4 +45,4 @@ Because the length of a near-circular loop is like the circumference of a circle
 
 ### What are the chances?
 
-100% for everything that's chunked. And nearly 100% for things like your name and your date of birth. For nerds, you can head over to https://example.com to see the funky Mathematics working behind.
+100% for everything that's chunked. And nearly 100% for things like your name and your date of birth. Nerds, you can head over to https://example.com to see the funky Mathematics working behind.
