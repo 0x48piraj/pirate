@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat|Open+Sans&display=swap');
+:root {
+  --color: #0080d4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;  
+}
+
+.figura {
+  --diametro: 500px;
+  position: relative;
+  margin: auto;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  width: var(--diametro);
+  height: var(--diametro);
+  border-radius: calc(var(--diametro) / 2);
+  overflow: hidden;
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+}
+
+@keyframes girar {
+  from {
+    transform: rotateZ( -359deg );
+  }
+}
+
+.girar {
+  position: absolute;
+  margin: auto;
+  left: 0; right: 0;
+  top: 0;
+  width: max-content;
+  height: calc(var(--diametro) / 2);
+  animation: 2s ease girar 1;
+  transform-origin: center bottom;
+}
+
+.girar > div {
+  height: 50px;
+}
+
+#simboloPI img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #figura {
+    display: none;
+  }
+  .girar {
+    display: none;
+  }
+  #simboloPI img {
+  display: none;
+  }
+  figure figcaption {
+    display: none;
+  }
+  .figure-2 {
+    display: none;
+  }
+  nav a {
+  color: #1F2329;
+  }
+}
