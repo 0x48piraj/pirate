@@ -3,7 +3,7 @@
 <p align="center">
 <b>πrate &mdash; Search Engine For Earthlings Personal Data</b><br><br>
 <img alt="Pirate Logo" src="/static/logo.png" width="400"><br>
-See it in <a href="https://example.com">action</a>
+See it in <a href="https://www.pwninthehole.in/pirate.html">action</a>
 </p>
 
 ## Introduction
@@ -12,7 +12,7 @@ This Pi Day, **πrate** is going to end privacy. All personal information that h
 
 You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique super-duper secret pin!
 
-Want to get freaked out? https://example.com
+Want to get freaked out? https://www.pwninthehole.in/pirate.html
 
 ### That's scary, πrate stores my personal information!?
 
@@ -45,4 +45,4 @@ Because the length of a near-circular loop is like the circumference of a circle
 
 ### What are the chances?
 
-100% for everything that's chunked. And nearly 100% for things like your name and your date of birth. Nerds, you can head over to https://example.com to see the funky Mathematics working behind.
+100% for everything that's chunked. And nearly 100% for things like your name and your date of birth. Nerds, you can head over to https://www.pwninthehole.in/pirate.html to see the funky Mathematics working behind.
