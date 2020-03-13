@@ -71,7 +71,13 @@
   .figure-2 {
     display: none;
   }
+  .sidebar-left {
+    display: none;
+  }
   nav a {
   color: #1F2329;
+  }
+  nav {
+    line-height: 1;
   }
 }
