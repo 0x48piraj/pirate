@@ -265,6 +265,10 @@
 
         // algorithm for searching ...
         $(".findDate").click(function () {
+          var ch = d3.select("#chunks");
+          if (typeof ch !== 'undefined') {
+              ch.remove();
+          }
           // hide everything
           // fancy loader
           var PINum = $(".PINum").text();
@@ -284,7 +288,6 @@
 	          final += "..." + f + "" + m + "" + l + "...";
 	          chunks += index + ", ";
           });
-
 
           var selectedMon = expirationdate.value.split("/")[0];
           var selectedDay = expirationdate.value.split("/")[1];
@@ -335,7 +338,7 @@
         svg.append("text").attr("x", 850).attr("y", 330).text('Credit Card Number, CVV & more ...').style("font-size", "15px").attr("alignment-baseline","middle")
 
         svg.append("text").attr("x", 850).attr("y", 450).text("Your Pi Sequence »").style("font-size", "25px").attr("alignment-baseline","middle")
-        svg.append("text").attr("x", 850).attr("y", 480).text(chunks).style("font-size", "18px").attr("alignment-baseline","middle")
+        svg.append("text").attr("id", 'chunks').attr("x", 850).attr("y", 480).text(chunks).style("font-size", "18px").attr("alignment-baseline","middle")
 
         svg.append("text").attr("x", 1020).attr("y", 530).text("Card Number").style("font-size", "15px").attr("alignment-baseline","middle")
         svg.append("text").attr("x", 1020).attr("y", 560).text("CVV / Pin").style("font-size", "15px").attr("alignment-baseline","middle")

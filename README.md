@@ -10,7 +10,7 @@ See it in <a href="https://www.pwninthehole.in/pirate.html">action</a>
 
 This Pi Day, **πrate** is going to end privacy. All personal information that has ever existed or will ever exist, the PII credentials of every earthling, can be searched just by using **πrate**.
 
-You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique super-duper secret pin!
+You can find your identity related information which makes you, you! say, your name, date of birth, CVV number and even your unique super-duper secret pin!
 
 Want to get freaked out? https://www.pwninthehole.in/pirate.html
 
