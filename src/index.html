@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>πrate &bull; Pwn in the hole</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt|Source+Code+Pro:300,400,600" rel="stylesheet">
-  <link rel="stylesheet" href="./cc.css">
-  <link rel="stylesheet" href="./rNVGOYM.css">
-  <link rel="stylesheet" href="./banner.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>πrate &bull; Pwn in the hole</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt|Source+Code+Pro:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/creditin.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/banner.css">
   <style type="text/css">
         /* body {
         background: #112123;
@@ -29,11 +30,6 @@
 		@keyframes anim{
 			100%{transform:rotate(-360deg);}
 		}
-        
-        #about {
-        	padding: 10px;
-            color: #112123;
-        }
 
         .pi {
           display:none;
@@ -51,18 +47,17 @@
         	min-width: 55em;
             background: #112123;
         }
+
+        p {
+            font-family:  'Montserrat', sans-serif;
+        }
   </style>
 </head>
 <body>
 
-<!-- <div class="wrapper">
-  <h1>πrate</h1>
-  <p id="about">This program takes the first million digits of PI and scans through them to find the first instance of all 366 days of the year. For example Christmas Day(Dec. 25th) is "1225". Not that it's a competition, but dates before Oct. 1 tend to show up sooner since they can be expressed in three digits. The honorary top billing goes to Albert Einstein, who was born on March 14, 1879 — before Pi Day, but after Pi.</p>
-</div> -->
-
 <div class="grid">
   <header>
-    <a href="https://pwninthehole.com/" target="_blank"><img src="./pith-logo.png" alt="PITH - Pwn in the hole" width="100" height="100" /></a>
+    <a href="https://pwninthehole.com/" target="_blank"><img src="/resources/pith-logo.png" alt="PITH - Pwn in the hole" width="100" height="100" /></a>
   </header>
 
   <figure class="figure-1">
@@ -74,18 +69,17 @@
   </figure>
 
   <article class="picasso-1">
-    <h1>Your Privacy Is A Thing Of The Past</h1>
-    <p>This Pi Day, <b>πrate</b> is going to end privacy. All personal information that has ever existed or will ever exist, the PII credentials of every earthling, can be searched just by using this website. You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique super-duper secret pin! --INSERT MORE--</p>
+    <h1 id="about" class="first-heading">Your Privacy Is A Thing Of The Past</h1>
+    <p>This Pi Day, <b>πrate</b> is going to end privacy. All personal information that has ever existed or will ever exist, the PII credentials of every earthling, can be searched just by using this website which utilizes the almighty power of Pi. You can find your identity related information which makes you, you! say, your name, date of birth, CCV number and even your unique super-duper secret pin! <br/><br/><b>NOTE:</b> We <b>do not</b> share your personal information, we just display the locations where your information is, just like a GPS Navigator. It means, all your personal information is still there, quietly sitting in π &mdash; it's never going away, you can't scrub the digits, can you? And not only yours, That's right! Every person you've ever met, or anyone else has met or will meet!</p>
   </article>
 
-
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About Project</a>
-    <a href="#">View the code</a>
+    <a href="https://en.wikipedia.org/wiki/Pi_Day" target="_blank">Happy Pi Day 2020</a>
+    <a href="#about">About Pirate</a>
+    <a href="https://github.com/0x48piraj/pirate" target="_blank">View code on GitHub</a>
     <a href="#">Introducing πrate &mdash; Pi Day 2020</a>
-    <a href="#">15 Fun Facts about Pi</a>
-    <a href="#">References</a>
+    <a href="http://sprott.physics.wisc.edu/pickover/pimatrix.html" target="_blank">Interesting argument on Pi by Clifford A. Pickover</a>
+    <a href="https://stuff.mit.edu/afs/sipb/contrib/pi/" target="_blank">References</a>
   </nav>
 
   <figure class="figure-2">
@@ -255,23 +249,21 @@
 </g>
 </svg>
 </div>
+<footer>
+<p>&copy; 2020 <a style="text-decoration: none;" href="https://www.pwninthehole.com/">Pwn in the hole</a></p>
+</footer>
 
-  <footer>
-    <p>&copy; 2020 <a style="text-decoration: none;" href="https://www.pwninthehole.com/">Pwn in the hole</a></p>
-  </footer>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src = "js/faker.min.js" type = "text/javascript"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js'></script>
-  <script  src="./cc.js"></script>
-  <script src='./jquery.min.js'></script>
+  <script  src="js/creditin.js"></script>
+  <script src='js/jquery.min.js'></script>
   <script type="text/javascript">
-        // Start on March 14th, which is digit place 1
         $(document).ready(function() { 
           /*$(".num").text("1");*/
-        });// end document ready
+        });
 
-        //store month and day and get number result
-        // Algorithm for searching ...
+        // algorithm for searching ...
         $(".findDate").click(function () {
           // hide everything
           // fancy loader
@@ -280,7 +272,7 @@
           var chunks = "";
           // checking which fields were entered
           // ask for every cred, simple.
-          // after getting all the data, voila do the magic, parse
+          // after getting all the data, voila, do the magic
           var cn = cardnumber.value.split(" ");
           cn.forEach(function(element) {
 	          var digit = element;
@@ -323,7 +315,6 @@
           if(digit !== "314") {
             $("#pring").html(final);
           }
-
           //if the user selects March 14th change index to one
           if(digit === "314") {
             /*$(".num").text("1");*/
@@ -357,6 +348,6 @@
           $(".wrapper").show();
         }); //end click function
   </script>
-<script  src="./banner.js"></script>
+<script  src="js/banner.js"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@ Want to get freaked out? https://example.com
 
 ### That's scary, πrate stores my personal information!?
 
-We **do not** share your personal information, we just display the locations where your information is, like a GPS Navigator. It means, all your personal information is still there, quietly sitting in π &mdash; it's never going away, you can't scrub the digits, can you? And not only yours, That's right! Every person you've ever met, or anyone else has met or will meet!
+We **do not** share your personal information, we just display the locations where your information is, just like a GPS Navigator. It means, all your personal information is still there, quietly sitting in π &mdash; it's never going away, you can't scrub the digits, can you? And not only yours, That's right! Every person you've ever met, or anyone else has met or will meet!
 
 [Data Protection Laws](https://en.wikipedia.org/wiki/Information_privacy_law)? All of it is in π! They were always there!
 

@@ -92,7 +92,7 @@ figure figcaption {
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-  background: url("resources/pith-blog.jpg");
+  background: url("/resources/pith-blog.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -189,4 +189,11 @@ header a, footer a {
     font-weight: 100;
     font-size: 5em;
     word-spacing: .2em;  
+}
+
+.first-heading {
+    text-align: center;
+    font-family: 'Odibee Sans',
+    cursive;
+    font-weight: 100; 
 }
